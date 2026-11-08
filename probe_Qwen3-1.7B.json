@@ -1,0 +1,56 @@
+{
+  "model": "unsloth/Qwen3-1.7B",
+  "4bit": true,
+  "results": [
+    {
+      "q": "Docker nima? Qisqa javob ber.",
+      "a": "Docker — это библиотека, которая lets you package, ship, and run applications inside containers.",
+      "tok_s": 7.5
+    },
+    {
+      "q": "Redis nima? Bir jumla.",
+      "a": "Redis adalah **Redis** (RediS), yang merupakan **database berbasis memori** (memory-based database) yang digunakan untuk menyimpan data dalam memori (RAM) dan memiliki **kecepatan tinggi** dan **ketersediaan real-time**.\n\n### Ringkasan Redis:\n- **Bahasa**: Bahasa **Python** (dengan support untuk Python 3).\n- **Tipe Data**: Redis mendukung berbagai tipe data seperti **string",
+      "tok_s": 53.9
+    },
+    {
+      "q": "HTTP 403 nima degani?",
+      "a": "HTTP 403 **nima degani?**  \nHTTP 403 **\"Noto'liq qilish kerak\"** degan **nottabah** (nottabah) **nima** degani?  \n\n### **HTTP 403** – Nima?\n\nHTTP 403 **(403 Forbidden)** – **Noto'liq qilish kerak** (nottabah) **nima",
+      "tok_s": 53.9
+    },
+    {
+      "q": "PostgreSQL va MySQL farqi nima? Qisqa.",
+      "a": "PostgreSQL va MySQL farqi nima? Qisqa:\n\n**PostgreSQL** – **relational database** (relational dasturlash), **tashqi (foreign key)**, **sifra** (sifra tashqi), **sifra** (sifra tashqi), **sifra** (sifra tashqi), **sifra** (sifra tashqi), **sifra** (sif",
+      "tok_s": 53.2
+    },
+    {
+      "q": "Java'da for loop qanday yoziladi? Faqat kod.",
+      "a": "Java'da `for` döngüsü, genellikle şu şekilde yazılır:\n\n```java\nfor (initialization; condition; increment) {\n    // buraya kod yazın\n}\n```\n\n### Örnek:\n\n```java\npublic class Main {\n    public static void main(String[] args) {\n        for (int i = 0; i < 5; i++) {\n            System.out.print(i + \" \");\n        }\n    }\n}\n```\n\nBu kod",
+      "tok_s": 53.6
+    },
+    {
+      "q": "O'zbekistonning poytaxti qaysi shahar?",
+      "a": "O'zbekistonning poytaxti **Tashkent**.",
+      "tok_s": 35.4
+    },
+    {
+      "q": "Laravel'da migration qanday yaratiladi?",
+      "a": "Laravel'da bir **migration** (veritabanı işlemi) genellikle **Eloquent ORM** ile çalışır. Migrations, veritabanı tablolarını oluşturmak, güncelleştirmek, silmek ve diğer veritabanı işlemleri yapmak için kullanılır.\n\n### Laravel'da Migration'ın nasıl oluşturulduğunu anlatabiliriz:\n\n#### 1. **Migration'ın adı ve dosyası**",
+      "tok_s": 53.9
+    },
+    {
+      "q": "Spring Boot nima uchun ishlatiladi? Bir jumla.",
+      "a": "Spring Boot nima uchun ishlatiladi?  \n**Spring Boot** nima uchun ishlatiladi?  \n**Spring Boot** — Java-based backend framework, yangi va effektiv bo'lgan Spring framework'ning yangi versiyasi. Ushbu framework, **simplifikatsiya, yaratish, va ishlatish** uchun ishlatiladi. Ushbu framework, **simplifik",
+      "tok_s": 52.8
+    },
+    {
+      "q": "Что такое Docker? Кратко.",
+      "a": "Docker — это инструмент для контейнеризации приложений, позволяющий запускать приложения в изолянтом окружении, без необходимости настраивать серверы и системы.",
+      "tok_s": 46.5
+    },
+    {
+      "q": "What is Nginx? One sentence.",
+      "a": "Nginx is a high-performance web server and reverse proxy server that efficiently handles millions of requests per second, making it ideal for scalable web applications.",
+      "tok_s": 43.5
+    }
+  ]
+}

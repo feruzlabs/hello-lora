@@ -1,0 +1,13 @@
+# Ollama Modelfile — hello-feruz
+# GGUF fayl nomi export.py dan keyin farq qilishi mumkin: `ls outputs/gguf/` bilan tekshirib, FROM ./outputs/gguf_gguf/Qwen2.5-0.5B-Instruct.Q8_0.gguf
+FROM ./outputs/gguf_gguf/Qwen2.5-0.5B-Instruct.Q8_0.gguf
+
+TEMPLATE """{{- range .Messages }}<|im_start|>{{ .Role }}
+{{ .Content }}<|im_end|>
+{{ end }}<|im_start|>assistant
+"""
+
+PARAMETER stop "<|im_end|>"
+PARAMETER stop "<|im_start|>"
+PARAMETER temperature 0
+PARAMETER num_ctx 2048
