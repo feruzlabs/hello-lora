@@ -5,3 +5,4 @@ __pycache__/
 *.jsonl
 eval*.json
 sysinfo.txt
+unsloth_compiled_cache/
